@@ -40,4 +40,16 @@ main h3 {
 	font-size: 105%;
 }
 
+.shadow {
+	text-shadow: 2px 2px var(--global-color-1);
+	color: black;
+}
 /* the styles for the footer */
+footer p{
+	text-align: center;
+}
+
+/* global vars */
+:root {
+	--global-color-1: #800000;
+}
